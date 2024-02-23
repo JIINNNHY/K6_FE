@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+main{
+  margin: 0 auto;
+  width: 80%;
+}
+
+header{
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 100px;
+  padding: 0 20px;
+}
+
+header div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 50px;
+  background-color: white;
+  border-radius: 10%;
+}
+header a{
+  color: black;
+  text-decoration: none;
+}
+
+section{
+  border: 1px solid black;
+  text-align: center;
+  margin: 20px 0;
+}
+
+#btArea{
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  background-color: beige;
+}
+#msgArea{
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  
+}
+
+#btArea2{
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  background-color: beige;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  background-color: dodgerblue;
+  color: white;
+  border: 0px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button:hover, #bt3:hover, #bt4:hover {
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+}
+
+#bt3{
+  background-color: green;
+}
+
+#bt4{
+  background-color: blueviolet;
+}
+
+h2 {
+  font-size: medium;
+  color: blue;
+}
